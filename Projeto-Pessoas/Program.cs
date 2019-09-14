@@ -16,10 +16,14 @@ namespace ExercicioPessoas
             p1.Nome = Console.ReadLine();
             Console.Write("Idade:");
             p1.Idade = int.Parse(Console.ReadLine());
+            Console.Write("Digite o CPF: ");
+            p1.CPF = int.Parse(Console.ReadLine());
             Console.Write("Nome:");
             p2.Nome = Console.ReadLine();
             Console.Write("Idade:");
             p2.Idade = int.Parse(Console.ReadLine());
+            Console.Write("Digite o CPF: ");
+            p2.CPF = int.Parse(Console.ReadLine());
 
             if (p1.Idade > p2.Idade)
             {
